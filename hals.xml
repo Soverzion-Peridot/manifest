@@ -2,7 +2,7 @@
 <manifest>
   <remote name="Soverzion-Peridot"
            fetch="https://github.com/Soverzion-Peridot"
-           revision="lineage-21.0" />
+           revision="vic" />
 
   <remove-project name="LineageOS/android_hardware_qcom-caf_common" />
   <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" groups="qcom" remote="Soverzion-Peridot" >
@@ -37,22 +37,13 @@
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8650/Android.mk" />
   </project>
 
-  <project path="hardware/qcom-caf/sm8650/audio/agm" name="vendor_qcom_opensource_agm" groups="qcom,lanai-audio" revision="lineage-21.0-caf-sm8650" remote="Soverzion-Peridot" />
-  <project path="hardware/qcom-caf/sm8650/audio/pal" name="vendor_qcom_opensource_arpal-lx" groups="qcom,lanai-audio" revision="lineage-21.0-caf-sm8650" remote="Soverzion-Peridot" />
-  <project path="hardware/qcom-caf/sm8650/audio/primary-hal" name="hardware_qcom_audio-ar" groups="qcom,lanai-audio" revision="lineage-21.0-caf-sm8650" remote="Soverzion-Peridot" />
-  <project path="hardware/qcom-caf/sm8650/data-ipa-cfg-mgr" name="vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,lanai-vendor" revision="lineage-21.0-caf-sm8650" remote="Soverzion-Peridot" />
-  <project path="hardware/qcom-caf/sm8650/dataipa" name="vendor_qcom_opensource_dataipa" groups="qcom,lanai-vendor" revision="lineage-21.0-caf-sm8650" remote="Soverzion-Peridot" />
-  <project path="hardware/qcom-caf/sm8650/display" name="hardware_qcom_display" groups="qcom" revision="lineage-21.0-caf-sm8650" remote="Soverzion-Peridot" />
-  <project path="hardware/qcom-caf/sm8650/media" name="hardware_qcom_media" groups="qcom,lanai-vendor" revision="lineage-21.0-caf-sm8650" remote="Soverzion-Peridot" />
-  <project path="device/qcom/sepolicy_vndr/sm8650" name="device_qcom_sepolicy_vndr" groups="qcom,lanai-vendor" revision="lineage-21.0-caf-sm8650" remote="Soverzion-Peridot" />
-
-  <remove-project name="LineageOS/android_vendor_qcom_opensource_power"/>
-  <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" groups="qcom,lanai-vendor" revision="lineage-21.0" remote="Soverzion-Peridot"/>
-
-  <remove-project name="LineageOS/android_vendor_qcom_opensource_vibrator"/>
-  <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" groups="qcom,lanai-vendor" revision="lineage-21.0" remote="Soverzion-Peridot"/>
-
-  <remove-project name="LineageOS/android_vendor_qcom_opensource_usb"/>
-  <project path="vendor/qcom/opensource/usb" name="vendor_qcom_opensource_usb" groups="qcom,lanai-vendor" revision="lineage-21.0" remote="Soverzion-Peridot"/>
+  <project path="hardware/qcom-caf/sm8650/audio/agm" name="vendor_qcom_opensource_agm" groups="qcom,lanai-audio" revision="vic-sm8650" remote="Soverzion-Peridot" />
+  <project path="hardware/qcom-caf/sm8650/audio/pal" name="vendor_qcom_opensource_arpal-lx" groups="qcom,lanai-audio" revision="vic-sm8650" remote="Soverzion-Peridot" />
+  <project path="hardware/qcom-caf/sm8650/audio/primary-hal" name="hardware_qcom_audio-ar" groups="qcom,lanai-audio" revision="vic-sm8650" remote="Soverzion-Peridot" />
+  <project path="hardware/qcom-caf/sm8650/data-ipa-cfg-mgr" name="vendor_qcom_opensource_data-ipa-cfg-mgr" groups="qcom,lanai-vendor" revision="vic-sm8650" remote="Soverzion-Peridot" />
+  <project path="hardware/qcom-caf/sm8650/dataipa" name="vendor_qcom_opensource_dataipa" groups="qcom,lanai-vendor" revision="vic-sm8650" remote="Soverzion-Peridot" />
+  <project path="hardware/qcom-caf/sm8650/display" name="hardware_qcom_display" groups="qcom" revision="vic-sm8650" remote="Soverzion-Peridot" />
+  <project path="hardware/qcom-caf/sm8650/media" name="hardware_qcom_media" groups="qcom,lanai-vendor" revision="vic-sm8650" remote="Soverzion-Peridot" />
+  <project path="device/qcom/sepolicy_vndr/sm8650" name="device_qcom_sepolicy_vndr" groups="qcom,lanai-vendor" revision="vic-sm8650" remote="Soverzion-Peridot" />
 
 </manifest>
