@@ -1413,5 +1413,6 @@
   <include name="snippets/remove.xml" />
   <include name="snippets/pixelage.xml" />
   <include name="snippets/lineage.xml" />
+  <include name="snippets/hals.xml" />
 
 </manifest>
