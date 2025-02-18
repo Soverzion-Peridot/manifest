@@ -7,7 +7,8 @@
   <remote name="Soverzion-HQ"
            fetch="https://gitea.com/Soverzion-HQ" />
 
-  <remove-project name="LineageOS/android_hardware_qcom-caf_common" />
+  <remove-project name="hardware_qcom-caf_common" />
+  <remove-project name="android_hardware_qcom-caf_common" />
 
   <project path="hardware/xiaomi" name="hardware_xiaomi" revision="lineage-22" remote="Soverzion-Peridot" />
   <project path="vendor/lineage-priv" name="vendor_lineage-priv" remote="Soverzion-Peridot" />
