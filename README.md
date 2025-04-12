@@ -1,7 +1,7 @@
 Initialize after init repo roms
 
 ```
-git clone https://github.com/Soverzion-Peridot/manifest.git -b horizon-15 .repo/local_manifests/
+git clone https://github.com/Soverzion-Peridot/manifest.git -b axion-15-qpr2 .repo/local_manifests/
 ```
 
 And sync repo
